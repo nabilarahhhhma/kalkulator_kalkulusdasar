@@ -32,4 +32,4 @@ if 'login' not in st.session_state:
 if not st.session_state['login']:
     login_ui()
 else:
-    st.switch_page("menu.py")
+    st.switch_page("menu")
